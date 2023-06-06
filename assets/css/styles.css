@@ -40,6 +40,19 @@ a {
     opacity: 0.8;
 }
 
+.play-btn {
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 1);
@@ -178,19 +191,6 @@ a {
     display: flex;
     align-items: center;
     gap: 50px;
-}
-
-.hero .buttons .play-btn {
-    height: 62px;
-    width: 62px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    background: #ffffff;
-    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
 }
 
 .hero .img-block {
@@ -495,3 +495,60 @@ a {
     border-radius: 50%;
     background: #1ebfc1;
 }
+/* STATS */
+.stats {
+    margin-top: 265px;
+}
+
+.stats .main-content {
+    width: 862px;
+}
+
+.stats .item {
+    text-align: center;
+}
+
+.stats .item .number {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #0d1111;
+}
+
+.stats .item .desc {
+    margin-top: 11px;
+}
+
+/* COMMENTS */
+.comments {
+    margin-top: 264px;
+}
+
+.comments .info {
+    max-width: 36%;
+}
+
+.comments blockquote {
+    margin-top: 27px;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5d6564;
+}
+
+.comments .name-block {
+    margin-top: 33px;
+}
+
+.comments .name-block .name {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #070707;
+}
+
+.comments .row {
+    margin-top: 52px;
+    gap: 30px;
+}
+
+.comments .;
