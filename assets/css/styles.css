@@ -523,6 +523,12 @@ a {
 /* COMMENTS */
 .comments {
     margin-top: 264px;
+    padding-bottom: 167px;
+}
+
+.comments .body {
+    display: flex;
+    align-items: center;
 }
 
 .comments .info {
@@ -551,4 +557,122 @@ a {
     gap: 30px;
 }
 
-.comments .;
+.comments .img-block {
+    height: 500px;
+    margin-left: 72px;
+    position: relative;
+    width: 64%;
+}
+
+.comments .play-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2ac9bf;
+}
+
+.comments .main-avatar {
+    position: absolute;
+    top: 23%;
+    right: 25%;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comments .small-avatar {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comments .medium-avatar {
+    position: absolute;
+    left: 20%;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comments .big-avatar {
+    position: absolute;
+    top: 4%;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* subscription */
+.subscription {
+    padding: 76px 0;
+    background: #def6f5;
+}
+
+.subscription .row {
+    gap: 35%;
+}
+
+.subscription .desc {
+    margin-top: 18px;
+}
+
+/* FOOTER */
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer .body {
+    display: flex;
+    gap: 144px;
+    align-items: flex-start;
+}
+
+.footer .body .img-block {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer .column .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #2e2e2e;
+}
+
+.footer .column ul {
+    margin-top: 25px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .column a {
+    font-size: 1.6rem;
+    color: #535353;
+    white-space: nowrap;
+}
+
+.footer .icon {
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+}
+
+.footer .social {
+    margin-left: 9px;
+}
+
+.footer .copyright p {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 1.8rem;
+    color: #b0b5b4;
+}
